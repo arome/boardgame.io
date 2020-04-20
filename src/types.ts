@@ -267,6 +267,7 @@ export namespace Server {
   export type PlayerMetadata = {
     id: number;
     name?: string;
+    hero?: string;
     credentials?: string;
   };
 
